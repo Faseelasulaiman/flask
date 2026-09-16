@@ -31,11 +31,6 @@ jobs:
     - name: Check Python syntax
       run: |
         python -m py_compile app.py
-    - name: Test with pytest
-        run: |
-          pytest
-        
-        
     - nam: Test with pytest
       run: |
         pytest
